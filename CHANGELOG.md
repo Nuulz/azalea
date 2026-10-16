@@ -24,6 +24,7 @@ is breaking anyways, semantic versioning is not followed.
 
 - Incorrect `damage_kind` component protocol implementation.
 - The `AirSupply` metadata component was defaulting to `0` instead of `300`. (@wbbradley)
+- `BeehiveOccupant::entity_data` is now an `EntityData`, fixing items with the `bees` component failing to parse.
 
 ## [0.16.0+mc26.1] - 2026-03-27
 
