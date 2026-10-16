@@ -24,6 +24,7 @@ is breaking anyways, semantic versioning is not followed.
 
 - Incorrect `damage_kind` component protocol implementation.
 - The `AirSupply` metadata component was defaulting to `0` instead of `300`. (@wbbradley)
+- `NumberFormat::Styled` was read as named NBT, so scoreboards with a styled number format failed to parse.
 
 ## [0.16.0+mc26.1] - 2026-03-27
 
